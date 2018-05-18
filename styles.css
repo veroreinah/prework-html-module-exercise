@@ -13,13 +13,51 @@ body {
 
 h1 {
   font-size: 3.25rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
   width: 1024px;
   margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.npm-btn {
+  color: #fff;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+  display: inline-block;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 20px;
+  padding: 0 30px;
+}
+
+.npm-btn.orange {
+  background-color: rgb(240, 146, 51);
+}
+
+.npm-btn.red {
+  background-color: rgb(203, 56, 55);
+}
+
+.npm-btn.blue {
+  background-color: rgb(49, 68, 88);
 }
 
 /* navbar styles */
@@ -34,7 +72,6 @@ nav {
 
 nav a {
   color: rgba(255,255,255,0.8);
-  text-decoration: none;
 }
 
 .top-left {
@@ -68,7 +105,6 @@ header {
 
 header a {
   color: #fff;
-  text-decoration: none;
 }
 
 header .logo {
@@ -80,19 +116,6 @@ header .header-text {
   width: 50%;
   font-size: 1.25rem;
   margin-bottom: 30px;
-}
-
-header .signup-btn {
-  background-color: rgb(240, 146, 51);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  font-weight: 300;
-  display: block;
-  height: 40px;
-  border-radius: 20px;
-  padding: 0 30px;
 }
 
 /* search bar */
@@ -132,4 +155,43 @@ header .signup-btn {
   margin-left: -1px;
   padding: 0 10px;
   margin-right: 20px;
+}
+
+/* collaboration section */
+
+#collaboration {
+  background-color: rgb(39, 53, 71);
+  padding: 120px 0;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+#collaboration a {
+  color: #fff;
+}
+
+.collab-img {
+  width: 55%;
+  margin-right: 5%;
+}
+
+.collab-right {
+  float: right;
+  width: 40%;
+}
+
+.collab-list {
+  margin: 0 0 30px 20px;
+}
+
+.collab-list li {
+  margin-bottom: 20px;
+}
+
+.collab-more {
+  margin-top: 5px;
+}
+
+.collab-more a {
+  font-weight: 400;
 }
