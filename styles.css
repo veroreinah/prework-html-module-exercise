@@ -7,6 +7,19 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
 /* navbar styles */
@@ -42,4 +55,81 @@ nav a {
 .top-links li {
   display: inline-block;
   margin: 0 10px;
+}
+
+/* header styles */
+
+header {
+  background: url("images/city-scape.svg") 0 0 no-repeat;
+  background-size: cover;
+  padding: 10px 30px 90px;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+header .header-text {
+  width: 50%;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+header .signup-btn {
+  background-color: rgb(240, 146, 51);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  font-weight: 300;
+  display: block;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 30px;
+}
+
+/* search bar */
+
+.search-bar {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.search-bar .bear-logo {
+  height: 45px;
+  vertical-align: middle;
+}
+
+.search-form {
+  flex-grow: 1;
+  display: flex;
+}
+
+.search-form input,
+.search-form button {
+  height: 50px;
+  background: rgb(31, 82, 111);
+  border: 1px solid rgb(76, 116, 140);
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  outline: none;
+}
+
+.search-form input {
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+.search-form button {
+  margin-left: -1px;
+  padding: 0 10px;
+  margin-right: 20px;
 }
