@@ -23,6 +23,12 @@ h2 {
   margin-bottom: 15px;
 }
 
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
 }
@@ -209,4 +215,33 @@ header .header-text {
 #what-is .text {
   width: 35%;
   margin-bottom: 20px;
+}
+
+/* what can you make section */
+
+#can-you-make {
+  padding: 80px 0 60px;
+  color: rgb(135, 145, 156);
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+#can-you-make h2,
+#can-you-make h4 {
+  color: rgb(83, 88, 98);
+}
+
+#can-you-make a {
+  color: rgb(208, 74, 73);
+}
+
+.can-make-item {
+  float: left;
+  width: 33.33%;
+  padding: 30px 45px 0;
+  box-sizing: border-box;
+}
+
+.can-make-item h4 {
+  margin-top: 5px;
 }
