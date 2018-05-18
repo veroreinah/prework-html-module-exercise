@@ -195,3 +195,18 @@ header .header-text {
 .collab-more a {
   font-weight: 400;
 }
+
+/* what is npm section */
+
+#what-is {
+  background: url("images/forklift.svg") 0 0 no-repeat;
+  background-size: cover;
+  padding: 120px 0 180px;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+#what-is .text {
+  width: 35%;
+  margin-bottom: 20px;
+}
